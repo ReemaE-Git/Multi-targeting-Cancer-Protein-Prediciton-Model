@@ -1,0 +1,16 @@
+# Importing
+    
+import numpy as np
+import pandas as pd
+import os
+import plotly.graph_objs as go
+import plotly.express as px
+import warnings
+warnings.filterwarnings('ignore')
+
+import os
+for dirname, _, filenames in os.walk('/kaggle/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
+
+kaggle kernels pull jillanisofttech/sleep-health-and-lifestyle-predication-with-94-ac
